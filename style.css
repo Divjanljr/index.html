@@ -1,0 +1,93 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 50px 60px;
+}
+
+/* 2 COLUMN LAYOUT */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+/* TITLE */
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* SECTION TITLE */
+.section {
+  font-size: 12px;
+  margin: 25px 0 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* LINKS */
+.footer-col a {
+  display: block;
+  color: #aaa;
+  text-decoration: none;
+  margin: 5px 0;
+
+  /* ✅ SMOOTH ANIMATION */
+  transition: all 0.3s ease;
+}
+
+/* ✅ HOVER ANIMATION (COLOR + MOVEMENT) */
+.footer-col a:hover {
+  color: #fff;
+  transform: translateX(6px);
+}
+
+/* CONTACT ITEM (ICON + TEXT INLINE) */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+.contact-item i {
+  width: 10px;
+}
+
+.contact-item span {
+  color: #fff;
+  font-size: 13px;
+}
+
+/* FACEBOOK BOX */
+.fb-box img {
+  width: 30%;
+  height: 30%;
+  object-fit: fill; 
+  filter: brightness(0);
+  filter: invert(1);
+  filter: drop-shadow(0 0 10px white);
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  margin-top: 40px;
+  border-top: 1px solid #222;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
