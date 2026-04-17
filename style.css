@@ -4,7 +4,7 @@
   padding: 50px 60px;
 }
 
-/* 2 COLUMN LAYOUT */
+
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -16,13 +16,13 @@
   flex: 1;
 }
 
-/* TITLE */
+
 .title {
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-/* SECTION TITLE */
+
 .section {
   font-size: 12px;
   margin: 25px 0 10px;
@@ -30,24 +30,24 @@
   text-transform: uppercase;
 }
 
-/* LINKS */
+
 .footer-col a {
   display: block;
   color: #aaa;
   text-decoration: none;
   margin: 5px 0;
 
-  /* ✅ SMOOTH ANIMATION */
+
   transition: all 0.3s ease;
 }
 
-/* ✅ HOVER ANIMATION (COLOR + MOVEMENT) */
+
 .footer-col a:hover {
   color: #fff;
   transform: translateX(6px);
 }
 
-/* CONTACT ITEM (ICON + TEXT INLINE) */
+
 .contact-item {
   display: flex;
   align-items: center;
@@ -64,7 +64,7 @@
   font-size: 13px;
 }
 
-/* FACEBOOK BOX */
+
 .fb-box img {
   width: 30%;
   height: 30%;
@@ -74,7 +74,7 @@
   filter: drop-shadow(0 0 10px white);
 }
 
-/* FOOTER BOTTOM */
+
 .footer-bottom {
   margin-top: 40px;
   border-top: 1px solid #222;
@@ -84,10 +84,3 @@
   color: #888;
 }
 
-/* RESPONSIVE */
-@media (max-width: 1024px) {
-  .footer-container {
-    flex-direction: column;
-    gap: 40px;
-  }
-}
